@@ -1,0 +1,77 @@
+{
+  "schema": "skyrelief-release-lock/1",
+  "project": "SkyRelief",
+  "manuscript_id": "SkyRelief_Hardware_MDPI_Submission",
+  "manuscript_version": "candidate-2026-10-20-r2",
+  "release_label": "0.2.0-rc1",
+  "authors": ["Aarav Jalan", "Abhinav Patro"],
+  "source_upstream_repo": "Shadowfax0707/project-ap-DDPDS_2024_1729-0707",
+  "source_upstream_commit": "42f9a44600351ec6d0a57fb20756c547acf38cad",
+  "source_upstream_note": "Recorded in data/source_freeze.json (accessed 2026-10-20T09:55:28Z, 49 blobs). Not re-fetched in the 2026-10-20 synchronisation session.",
+  "mechanical_repo": "Aarav-J-10/Skyrelief-Hardware-Repo",
+  "mechanical_base_commit": "7cd888165757441deb394b12f5b5b81d8ebcd54f",
+  "mechanical_tag": null,
+  "electronics_repo": "Aarav-J-10/SkyRelief-Electronics-Integration-Repository",
+  "electronics_base_commit": "29def3e9ea23ed077be269c285336300e7e2a40b",
+  "electronics_tag": null,
+  "release_commits_note": "A file cannot contain the commit that adds it. The frozen release commits are recorded in SkyRelief_Submission_Manifest.json outside the repositories.",
+  "supplements": {
+    "S1": "SkyRelief_Mechanical_Source_Release.zip",
+    "S2": "SkyRelief_Electronics_Source_Release.zip",
+    "S3": "SkyRelief_Reproducible_Computations.zip"
+  },
+  "computational_zip_sha256": null,
+  "computational_zip_status": "PENDING EXTERNAL SUPPLEMENT, NOT VERIFIED",
+  "rights_status": {
+    "overall": "PUBLIC_LICENSE_APPROVAL_PENDING",
+    "author_owned_originals": "Publication consent given; reuse licence not elected",
+    "new_reference_designs_and_code": "Licence not elected; authors must review AI-assisted contribution",
+    "historical_step_D01_D05": "WITHHELD; rights holder permission absent",
+    "third_party_artwork": "EXCLUDED"
+  },
+  "design_ids": {
+    "historical_withheld": ["D01", "D02", "D03", "D04", "D05"],
+    "new_mechanical_reference": "R01",
+    "electrical": {
+      "E-HIST-PWR": "kicad/delivery_historical_power.kicad_sch",
+      "E-REF-SERVO": "kicad/delivery_reference.kicad_sch",
+      "E-REF-SCOUT": "kicad/scout_reference.kicad_sch"
+    }
+  },
+  "counts": {
+    "historical_step_files_withheld": 5,
+    "r01_step_exports": 5,
+    "kicad_projects": 3,
+    "scout_unresolved_erc_pins": 9,
+    "bom_crosswalk_entries": 34,
+    "supplier_quotes": 20,
+    "documented_interfaces": 20,
+    "thrust_ods_populated_cells": 37
+  },
+  "erc": {
+    "tool": "KiCad 9.0.9 (re-run 2026-10-20); originally 9.0.7",
+    "delivery_historical_power": {"violations": 0},
+    "delivery_reference": {"violations": 0},
+    "scout_reference": {"violations": 9, "type": "pin_not_connected", "suppressed": false}
+  },
+  "cost_baskets": {
+    "named_family_partial_INR": 18428,
+    "category_proposed_partial_INR": 5920,
+    "scout_named_partial_USD": 115.95,
+    "currency_conversion": null,
+    "complete_total": null
+  },
+  "historical_outcomes": {
+    "composite_runs_passed": 19,
+    "composite_runs_total": 20,
+    "endpoint": "author-reported composite detection + payload drop + obstacle avoidance; no trial register",
+    "separate_release_reliability": null
+  },
+  "physical_new_tests": false,
+  "historical_wiring_complete": false,
+  "historical_controller_exports_recovered": false,
+  "historical_detector_code_recovered": false,
+  "review_status": "CONDITIONAL_GO",
+  "review_status_scope": "Editorial eligibility inquiry only; not a formal submission GO",
+  "last_verification_date": "2026-10-20"
+}

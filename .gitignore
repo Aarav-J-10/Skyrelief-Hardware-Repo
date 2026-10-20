@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.zip

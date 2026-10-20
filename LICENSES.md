@@ -10,3 +10,5 @@
 | KiCad/Open CASCADE tooling | Not redistributed | Install under upstream terms |
 
 LicenseRef-Pending-Approval is a local status marker, not an SPDX-listed open licence or a permission grant. No CERN/CC/MIT licence is automatically applied. Publication permission for owned materials is separate from granting broad reuse rights. Trademarks identify equipment only. See [source inventory](data/source_manifest.csv) and [known limits](Known_Limitations.md).
+
+Per-file status: [LICENSE_MATRIX.csv](LICENSE_MATRIX.csv). Decision sheet for both authors: [AUTHORS_LICENSING_APPROVAL_REQUIRED.md](AUTHORS_LICENSING_APPROVAL_REQUIRED.md).

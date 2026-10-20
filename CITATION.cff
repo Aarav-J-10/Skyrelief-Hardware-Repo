@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "Cite this review package and frozen historical source separately. No DOI assigned."
+message: "Untagged release candidate 0.2.0-rc1. Cite the repository URL and commit. No DOI has been assigned."
 type: software
+repository-code: "https://github.com/Aarav-J-10/Skyrelief-Hardware-Repo"
 title: "SkyRelief-Mechanical-Hardware: historical dossier and independent engineering reference"
-version: "0.1.0-review"
-date-released: "2026-10-20"
+version: "0.2.0-rc1"
 authors:
   - family-names: Jalan
     given-names: Aarav
@@ -12,4 +12,5 @@ authors:
   - family-names: Patro
     given-names: Abhinav
     affiliation: "Sri Sri Ravishankar Vidya Mandir (SSRVM), Ahmedabad, Gujarat, India"
+    email: stellar.ap.1729@gmail.com
 abstract: "Historical evidence and modern reference documentation; no new physical experiments."

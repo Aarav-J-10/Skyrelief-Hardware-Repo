@@ -7,7 +7,7 @@ from decimal import Decimal
 ROOT=Path(__file__).resolve().parents[1]
 def csvrows(p):
  with p.open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
-def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest() if p.is_file() else 'MISSING'
 checks=[];fail=[]
 def check(name,condition,detail=''):
  checks.append({'check':name,'pass':bool(condition),'detail':detail})
@@ -21,7 +21,7 @@ def exact_exists(target):
   return cur.is_file() or cur.is_dir()
  except (ValueError,FileNotFoundError,NotADirectoryError):return False
 def main():
- files=[p for p in ROOT.rglob('*') if p.is_file()]
+ files=[p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.relative_to(ROOT).parts]
  paths={p.relative_to(ROOT).as_posix() for p in files}
  check('README at repository root','README.md' in paths)
  check('No nested ZIP, git, caches or temporary files',not any(p.suffix.lower() in ['.zip','.tmp','.bak','.pyc','.kicad_prl'] or '.git' in p.parts or '__pycache__' in p.parts for p in files))
@@ -78,7 +78,7 @@ def main():
  check('Completed issue severity vocabulary',all(x['severity'] in severity for x in csvrows(ROOT/'data/issue_matrix.csv')))
  if (ROOT/'kicad').is_dir():
   report=json.loads((ROOT/'verification/native_kicad_checks.json').read_text())
-  check('Native KiCad 9.0.7 actually executed',report['tool_version']=='9.0.7' and len(report['projects'])==3)
+  check('Native KiCad 9.x actually executed',report['tool_version'].startswith('9.0.') and len(report['projects'])==3)
   for project in report['projects']:
    check('Native export success '+project['project'],all(project[k]['exit_code']==0 for k in ['svg','pdf','netlist']))
    if project['project']=='scout_reference':check('Scout unresolved ERC retained',project['erc']['exit_code']==5 and project['violations_by_type']=={'pin_not_connected':9})
