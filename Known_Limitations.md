@@ -1,0 +1,16 @@
+# Completed technical and licensing audit
+
+No new physical experiments were performed. Digital checks do not close the historical operability or public licensing gates.
+
+| ID | Severity | Finding | Remedy |
+|---|---|---|---|
+| L01 | BLOCKING FOR PUBLIC RELEASE | Reusable licences not approved | Both authors elect appropriate licences for owned material and review new contributions; preserve external exclusions |
+| L02 | BLOCKING FOR REPRODUCIBLE HARDWARE | Five historical CAD redistribution grants unresolved | Written source-specific permission or documented independent complete redesign |
+| L03 | BLOCKING FOR REPRODUCIBLE HARDWARE | Historical servo signal/supply/return unrecovered | Exact harness/board evidence or independently specified and verified replacement |
+| L04 | BLOCKING FOR REPRODUCIBLE HARDWARE | Installed firmware/parameters/motor order/failsafes missing | Recover originals or qualify a new installation without historical equivalence claim |
+| L05 | BLOCKING FOR REPRODUCIBLE HARDWARE | Scout cells, board revision and receiver pins unknown | Exact revision and independent hardware-specific electrical review |
+| L06 | MAJOR | R01 unbuilt; no material/load/linkage qualification | Complete mechanical design and qualification before fabrication/aircraft use |
+| L07 | MAJOR | Perception/ranging operational source absent | Limit claims to development until actual code/weights/logs recovered |
+| L08 | MAJOR | 19/20 assertion lacks trial register | Retain retrospective composite wording; no subsystem inference |
+| L09 | MAJOR | Partial dated quotes, not complete procurement basket | Requote exact revisions/availability/tax/shipping and verify compatibility |
+| L10 | MINOR | Photo/CAD installed equivalence unproven | Retain observation limits; no calibrated or hidden-wire claims |

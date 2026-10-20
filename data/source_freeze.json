@@ -1,0 +1,10 @@
+{
+  "default_branch": "main",
+  "head_commit": "42f9a44600351ec6d0a57fb20756c547acf38cad",
+  "expected_previous": "42f9a44600351ec6d0a57fb20756c547acf38cad",
+  "head_moved": false,
+  "commit_timestamp": "2026-10-19T17:49:16Z",
+  "accessed_utc": "2026-10-20T09:55:28Z",
+  "blobs": 49,
+  "all_git_blobs_verified": true
+}

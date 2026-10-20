@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "KiCad": "9.0.7",
+  "OpenCASCADE_binding": "cadquery-ocp 8.0.1.1.0",
+  "matplotlib": "3.11.2",
+  "native_tool_distribution": "Official KiCad 9.0.7 x86_64 installer, signature Valid / KICAD SERVICES CORPORATION",
+  "installer_sha256": "f0a5e6f14633efeddfe1e1f6467a0d36454c51e3bfae313a6132baf2141f74aa",
+  "installer_integrity": "Matched official GitHub release API sha256 digest",
+  "tool_binaries_included": false,
+  "source_acquisition": "HTTPS GitHub API default branch + immutable commit tree/raw blobs; all 49 Git object IDs checked",
+  "physical_test": false
+}

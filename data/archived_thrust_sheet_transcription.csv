@@ -1,0 +1,38 @@
+sheet,row,column,literal_text,stored_value,value_type,evidence_status
+Sheet1,1,1,Test,Test,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,2,Propeller,Propeller,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,3,Voltage(V),Voltage(V),string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,4,Throttle(%),Throttle(%),string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,5,Ampere (A),Ampere (A),string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,6,Thrust (g),Thrust (g),string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,1,7,Average(g),Average(g),string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,1,Test1a,Test1a,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,2,10x4.5,10x4.5,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,3,11.1,11.1,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,4,50,50,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,5,1.5,1.5,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,6,164,164,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,2,7,168,168,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,3,1,Test1b,Test1b,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,3,6,173,173,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,4,1,Test1c,Test1c,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,4,6,168,168,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,5,1,Test2a,Test2a,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,5,4,75,75,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,5,5,4.2,4.2,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,5,6,384,384,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,5,7,366,366,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,6,1,Test2b,Test2b,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,6,6,367,367,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,7,1,Test2c,Test2c,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,7,6,348,348,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,8,1,Test3a,Test3a,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,8,4,100,100,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,8,5,7.8,7.8,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,8,6,572,572,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,8,7,568,568,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,9,1,Test3b,Test3b,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,9,6,568,568,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,10,1,Test3c,Test3c,string,Entered archival spreadsheet; instrument chain unverified
+Sheet1,10,6,564,564,float,Entered archival spreadsheet; instrument chain unverified
+Sheet1,11,6,Recorded By :- Abhinav Patro,Recorded By :- Abhinav Patro,string,Entered archival spreadsheet; instrument chain unverified

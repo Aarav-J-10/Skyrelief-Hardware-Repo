@@ -1,0 +1,39 @@
+path,width,height,GPS_metadata,personal_exif_fields,sha256,identity,release_decision
+Circuit Diagram/Payload_Drone_Circuit_Diagram/pld_cd_1.jpg,9728,14016,False,,c962250dfe2024061adf9488a4f0e3381cbbfa3af9b4f27af6a9621bbf373f8d,Authored sketch,Included per asset manifest
+Circuit Diagram/Payload_Drone_Circuit_Diagram/pld_cd_2.png,540,750,False,,678c5f283baa85708c91c96a363e17714062d57ab6c39b2b0ed9ac7a6ce67a4d,Vendor/catalogue/tutorial image,Excluded
+Circuit Diagram/Scout_Drone_Circuit_Diagram/scout_drone_cd_1.png,1280,1050,False,,3959df9d18935676b28d84a3903ec386474f63e5dff0bda284c00ef6b2fc7bf6,Vendor/catalogue/tutorial image,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld1.jpg,899,1599,False,,4233b608c5c9ee4b73c336dca5a98198050785bab4730b284d13f6e36a9c7168,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld10.jpg,743,1600,False,,fef4f1e0fe7d95f719af3e9f28eb38ab5745c33e2ba917d75eb9a1780b7cd4de,Delivery GPS mast and controller placement,Included per asset manifest
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld11.jpg,1280,960,False,,228b2b06f9646f381846230f007d1c1c15caab1cf5b65addeef6d54cbc5850e1,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld12.jpg,960,1280,False,,dfa0cb459b9aec8a7142795eda12d2c75254fcb9224d3ce22cba3b0e14c15b7e,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld13.jpg,720,1280,False,,056dd5dfdf7cfe9c89351a7ea3a8d3345dd53b4a366b13df8161f3dae6cad80f,Delivery Pixhawk and telemetry stack,Included per asset manifest
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld14.jpg,1156,867,False,,a0fa76ae03fb84821f3085c8188f3f35180a46ac41764a961416866ea9e903e0,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld15.jpg,1156,867,False,,31458ff50a216409036df81e5cff9c3e2fdcda7b98077c5d37c4d58bddb6094c,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld16.jpg,1200,1600,False,,e3b2e037621089ef556c4468b4be8415e02b245d7a95a1228a2f1d052b2c2a15,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld17.jpg,867,1156,False,,af0395e5f1873685429362c177def2089db9fe7aecd66c090892fb991037697d,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld18.jpg,1280,960,False,,2e4b677f6f6d7edc028ce49489671cbe3c914901fad0e337ffbcb7e3d816d7ab,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld19.jpg,1599,899,False,,e8e20adfd13ad1b76300a5eb4e27166474380ae61e1cff5fb17ec399e5b1665c,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld2.jpg,876,1600,False,,fc3ceaa831eaa869f8d201701a3421292a8eb670e5daa1aa24cfdceb710d5d1b,Delivery FS-iA6B receiver marking; not pin mapping,Included per asset manifest
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld20.jpg,1599,899,False,,ba8fe51961a00eb6e14f65148ef2af65bffa06421578f7048f27b47747f1c029,Delivery retaining assembly and MG90S marking,Included per asset manifest
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld21.jpg,960,1280,False,,b98e21260dae4ebe5cf717512d651dca76791cd113c590a5fd737d52243fc1db,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld22.jpg,1600,1200,False,,0ec7cf29fafc0bed99a3da2a7d147b1c7bc322869413311abb52dde80a22d954,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld23.jpg,1156,867,False,,f19d07874ef9ad2880e031377a48ee928186cd2a4db0995b973888da1aed8cb5,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld24.jpg,1156,867,False,,03c37af404926c71dbf2150d6a263858d629df3fe711b53f1eaa3e964c4dda30,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld25.jpg,1600,1586,False,,517a17dd5dbe23bcb9d9dc12335480d77f2971f57199b8bc425698d725339c45,Delivery four-arm/motor aircraft overview,Included per asset manifest
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld3.jpg,1108,1244,False,,0cb496bf00add40352762f72e3ff2fb964ac1d9061f563255ffa6784c19abe09,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld4.jpg,899,1599,False,,081300373ef98e82aba914926f4009eb6a5cf01f37217648c52daa9ca5e25921,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld5.jpg,1599,899,False,,6257b6c5021895b916f55fd9d1f2bd3a9411021070deda24d97b9b786a3d1338,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld6.jpg,1200,1600,False,,33947d9e52ee2825f8907ab0977000fb26cbbc9351a5884f0d1692933b83a9ac,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld7.jpg,1600,1209,False,,23bbe6c467a44acc47d52c1b6399092e2a2784a6c2dce134e3b8ce9a8ac5d351,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld8.jpg,899,1599,False,,b5e4ccc9fe21f63b710c762a65c225458088d09f9cee808780aba6da280f69df,Project documentary view; not selected,Excluded
+Components/Payload_Drone/Payload_Drone(pld)_Picture/pld9.jpg,1280,960,False,,df817483374b156ccd156bca49d36fa51bdc8c703960fb4ddb2f3ca461859c29,Project documentary view; not selected,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc1.png,1280,1280,False,,a0e664030e22530ee0478e9843a55c9cc3284129529ecb752a19e580e6cd832d,Vendor/catalogue/tutorial image,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc2.png,155,140,False,,5d097572fa30800b56374c8677b929a428b476cb64318c75d193d77983d5ac44,Vendor/catalogue/tutorial image,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc3.png,1280,742,False,,8932fdb79ea95681957f7b2dcd0e3c9677a89b4b61f66662934b1022ea431622,Vendor/catalogue/tutorial image,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc4.png,1280,1193,False,,3cc032cbad34b31fc4018fad39203385c91a5ecc3bba10062f319ee7d7176b69,Vendor/catalogue/tutorial image,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc5.png,726,625,False,,0df3266203c5ecbb628e65a2546114452540cf94dd316ef230f1d34fb26a23c1,Vendor/catalogue/tutorial image,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc6.jpg,1600,1334,False,,5ccbd2be29a42859747ee6e3ebdfa7ed4811c5c357f3eb74df6e9d2975c6ddbc,Project documentary view; not selected,Excluded
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc7.jpg,720,1600,False,,d0c34b5309bb7cacc6f8ad0ea511d90bf4e42eaacf099cc145aedea04f07937c,Scout BMI-family board closeup; revision unverified,Included per asset manifest
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc8.jpg,720,1600,False,,8585a990db8a2b73011b7202d0e508509a077e16ac1ed2e5436163c4a4cf7904,"Scout board underside/harness, not continuity proof",Included per asset manifest
+Components/Scout_Drone/Scout Drone(sc) Pictures/sc9.jpg,1200,1600,False,,2466bd90558d47dc6505abd877b4a3879b999b5009e612d03da035c11cd3cf19,Scout guarded four-motor airframe,Included per asset manifest
+Drone_Analysis/Brushless_Motor_Manufacturers_Data.png,909,804,False,,ce5cc285ec719688e6948c992e8dac2299678e029cc43db0f5b8005bb2e14e5f,Vendor/catalogue/tutorial image,Excluded

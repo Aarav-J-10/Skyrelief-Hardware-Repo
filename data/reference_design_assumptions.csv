@@ -1,0 +1,21 @@
+design_id,parameter,value,unit,category,basis,qualification
+R01,design_id,R01,not applicable,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,status,"REFERENCE DESIGN (NEW), unbuilt bench mechanism",not applicable,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,units,mm,not applicable,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,base_length,110,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,base_width,64,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,base_thickness,5,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,release_travel,18,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_length,78,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_width,21,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_thickness,3,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_bottom_z,5.5,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,drop_window_diameter,18,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_release_hole_diameter,14,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,gate_neck_width,6,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,coupon_stem_diameter,5,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,coupon_flange_diameter,10,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,rail_clearance,0.5,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,mount_hole_diameter,3.4,mm,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,material,UNASSIGNED,not applicable,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification
+R01,actuator,UNSPECIFIED; no servo or linkage,not applicable,REFERENCE DESIGN (NEW),Independent new bench design choice; no historical STEP imported,Unbuilt; no manufacturing/load qualification

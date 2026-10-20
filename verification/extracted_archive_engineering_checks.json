@@ -1,0 +1,71 @@
+{
+  "fresh_extraction_file_checks": "PASS; ZIP CRC and every file manifest hash checked",
+  "step_reimport": {
+    "status": "PASS",
+    "step_files": [
+      {
+        "file": "R01_chassis.step",
+        "solids": 1,
+        "valid": true,
+        "positive_volumes": true
+      },
+      {
+        "file": "R01_gate.step",
+        "solids": 1,
+        "valid": true,
+        "positive_volumes": true
+      },
+      {
+        "file": "R01_coupon.step",
+        "solids": 1,
+        "valid": true,
+        "positive_volumes": true
+      },
+      {
+        "file": "R01_locked_assembly.step",
+        "solids": 3,
+        "valid": true,
+        "positive_volumes": true
+      },
+      {
+        "file": "R01_released_assembly.step",
+        "solids": 3,
+        "valid": true,
+        "positive_volumes": true
+      }
+    ],
+    "scope": "Digital geometry only, no physical qualification"
+  },
+  "native_KiCad_version": "9.0.7",
+  "native_fresh_extraction_checks": [
+    {
+      "project": "delivery_historical_power",
+      "erc_exit": 0,
+      "pdf_exit": 0,
+      "svg_exit": 0,
+      "netlist_exit": 0
+    },
+    {
+      "project": "delivery_reference",
+      "erc_exit": 0,
+      "pdf_exit": 0,
+      "svg_exit": 0,
+      "netlist_exit": 0
+    },
+    {
+      "project": "scout_reference",
+      "erc_exit": 5,
+      "pdf_exit": 0,
+      "svg_exit": 0,
+      "netlist_exit": 0
+    }
+  ],
+  "historical_estimate_execution": {
+    "backend": "noninteractive Agg",
+    "exit_code": 0,
+    "interpretation": "Execution only; model assumptions not physically validated"
+  },
+  "ods_populated_cells": 37,
+  "physical_test": false,
+  "rights": "Original five STEP and derivatives excluded; reusable licences pending"
+}

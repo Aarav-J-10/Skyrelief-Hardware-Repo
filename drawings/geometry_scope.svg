@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252f}.h{font-size:22px;font-weight:bold}.s{font-size:14px}.b{font-size:17px;font-weight:bold}</style>
+<text x="35" y="45" class="h">Geometry scope / lawful inclusion</text>
+<text x="35" y="75" class="s">Numerical metadata does not reproduce restricted geometry</text>
+<rect x="45" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="153" class="b">D01-D04 / withheld</text>
+<text x="57" y="177" class="s">Frame sources; commodity-style</text>
+<text x="57" y="195" class="s">geometry</text>
+<rect x="370" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="382" y="153" class="b">D05 / withheld</text>
+<text x="382" y="177" class="s">One fixed support; no moving</text>
+<text x="382" y="195" class="s">release</text>
+<rect x="695" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="707" y="153" class="b">R01 / new reference</text>
+<text x="707" y="177" class="s">Independent parametric bench</text>
+<text x="707" y="195" class="s">gate</text>
+<text x="35" y="465" class="s">All five historical binaries, meshes and geometry-derived renders are excluded.</text>
+<text x="35" y="484" class="s">R01 uses new dimensions and reads no historical STEP.</text>
+<text x="35" y="503" class="s">No full-aircraft CAD, manufacturing qualification or flightworthiness is provided.</text>
+</svg>

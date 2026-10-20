@@ -1,0 +1,23 @@
+[
+  {
+    "repository": "SkyRelief-Mechanical-Hardware",
+    "file": "drawings/R01_dimensioned_reference.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Mechanical-Hardware",
+    "file": "evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  },
+  {
+    "repository": "SkyRelief-Mechanical-Hardware",
+    "file": "evidence/original/Scout_Drone_Components.pdf",
+    "pages": 1,
+    "local_path_in_metadata": false,
+    "gps_metadata_found": false
+  }
+]

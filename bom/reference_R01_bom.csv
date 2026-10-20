@@ -1,0 +1,4 @@
+reference_id,part,quantity,source,status,material,price,qualification
+R01,chassis,1,cad/independently_authored/exports/R01_chassis.step,REFERENCE DESIGN (NEW),UNASSIGNED,,Unbuilt; process/tolerance/load unqualified
+R01,gate,1,cad/independently_authored/exports/R01_gate.step,REFERENCE DESIGN (NEW),UNASSIGNED,,Unbuilt; process/tolerance/load unqualified
+R01,coupon,1,cad/independently_authored/exports/R01_coupon.step,REFERENCE DESIGN (NEW),UNASSIGNED,,Unbuilt; process/tolerance/load unqualified

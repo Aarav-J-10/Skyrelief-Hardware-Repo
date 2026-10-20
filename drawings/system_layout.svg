@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#17252f}.h{font-size:22px;font-weight:bold}.s{font-size:14px}.b{font-size:17px;font-weight:bold}</style>
+<text x="35" y="45" class="h">SkyRelief / two-aircraft architecture</text>
+<text x="35" y="75" class="s">SOURCE-DERIVED functional boundaries, not a dimensioned layout</text>
+<rect x="45" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="153" class="b">Scout UAV</text>
+<text x="57" y="177" class="s">Manual FPV; reported</text>
+<text x="57" y="195" class="s">YOLO/ranging development</text>
+<rect x="370" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="382" y="153" class="b">Human operator</text>
+<text x="382" y="177" class="s">Observation, selection and RC</text>
+<text x="382" y="195" class="s">command authority</text>
+<rect x="695" y="125" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="707" y="153" class="b">Delivery UAV</text>
+<text x="707" y="177" class="s">Pixhawk; physical payload</text>
+<text x="707" y="195" class="s">release</text>
+<rect x="45" y="280" width="260" height="90" fill="#f3f6f8" stroke="#344350"/>
+<text x="57" y="308" class="b">Release boundary</text>
+<text x="57" y="332" class="s">Servo output, supply and return</text>
+<text x="57" y="350" class="s">unrecovered</text>
+<text x="35" y="465" class="s">FLOW: Scout observation -&gt; human operator -&gt; Delivery UAV command -&gt; release boundary.</text>
+<text x="35" y="484" class="s">No recovered autonomous scout-to-delivery command protocol.</text>
+<text x="35" y="503" class="s">Historical 19/20 is a retrospective composite report, not subsystem reliability.</text>
+<defs><marker id="flowarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#344350"/></marker></defs><path d="M307 170H367" stroke="#344350" fill="none" stroke-width="1.3" marker-end="url(#flowarrow)"/><path d="M632 170H692" stroke="#344350" fill="none" stroke-width="1.3" marker-end="url(#flowarrow)"/><path d="M825 217V250H175V278" stroke="#344350" fill="none" stroke-width="1.3" stroke-dasharray="5 4" marker-end="url(#flowarrow)"/><text x="35" y="620" font-family="Arial,sans-serif" font-size="12">Arrows = functional roles, never physical wiring; dashed = unresolved implementation.</text></svg>

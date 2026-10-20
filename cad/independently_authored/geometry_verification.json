@@ -1,0 +1,122 @@
+{
+  "design": "REFERENCE DESIGN (NEW), unbuilt bench mechanism",
+  "kernel": "cadquery-ocp 8.0.1.1.0",
+  "units": "mm",
+  "part_exports": [
+    {
+      "file": "R01_chassis.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 39746.07091991859
+    },
+    {
+      "file": "R01_gate.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4118.0873697045945
+    },
+    {
+      "file": "R01_coupon.step",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 382.88160465625276
+    },
+    {
+      "file": "R01_locked_assembly.step",
+      "valid": true,
+      "solids": 3,
+      "volume_mm3": 44247.03989427943
+    },
+    {
+      "file": "R01_released_assembly.step",
+      "valid": true,
+      "solids": 3,
+      "volume_mm3": 44247.03989427947
+    }
+  ],
+  "translation_checks": [
+    {
+      "gate_translation_mm": 0,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 1,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 2,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 3,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 4,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 5,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 6,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 7,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 8,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 9,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 10,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 11,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 12,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 13,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 14,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 15,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 16,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 17,
+      "chassis_overlap_mm3": 0.0
+    },
+    {
+      "gate_translation_mm": 18,
+      "chassis_overlap_mm3": 0.0
+    }
+  ],
+  "release_geometry": {
+    "flange_diameter_mm": 10,
+    "neck_width_mm": 6,
+    "release_aperture_mm": 14,
+    "travel_mm": 18
+  },
+  "limits": "Geometric clearance only. No material, load, wear, servo, linkage or flight validation."
+}

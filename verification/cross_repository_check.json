@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "upstream_head_at_final_check": "42f9a44600351ec6d0a57fb20756c547acf38cad",
+  "shared_files_identical": [
+    "bom/complete_platform_parts_crosswalk.csv",
+    "bom/supplier_cost_provenance.csv",
+    "data/documented_connections.csv",
+    "data/evidence_ledger.csv",
+    "data/source_manifest.csv",
+    "data/source_freeze.json",
+    "data/withheld_asset_manifest.csv",
+    "data/source_geometry_audit.csv"
+  ],
+  "documentary_bom_rows": 34,
+  "supplier_quote_rows": 20,
+  "functional_connections": 20,
+  "historical_servo_connection": "UNKNOWN / UNVERIFIED",
+  "scout_battery_voltage": "UNKNOWN / UNVERIFIED",
+  "delivery_battery": "3S / 11.1 V nominal / 2200 mAh label",
+  "perception_deployment": "Not recovered",
+  "copyright_gate": "Pending licences; five historical CAD sources excluded"
+}

@@ -1,0 +1,22 @@
+{
+  "design_id": "R01",
+  "status": "REFERENCE DESIGN (NEW), unbuilt bench mechanism",
+  "units": "mm",
+  "base_length": 110,
+  "base_width": 64,
+  "base_thickness": 5,
+  "release_travel": 18,
+  "gate_length": 78,
+  "gate_width": 21,
+  "gate_thickness": 3,
+  "gate_bottom_z": 5.5,
+  "drop_window_diameter": 18,
+  "gate_release_hole_diameter": 14,
+  "gate_neck_width": 6,
+  "coupon_stem_diameter": 5,
+  "coupon_flange_diameter": 10,
+  "rail_clearance": 0.5,
+  "mount_hole_diameter": 3.4,
+  "material": "UNASSIGNED",
+  "actuator": "UNSPECIFIED; no servo or linkage"
+}

@@ -1,0 +1,21 @@
+connection_id,platform,from,to,role,source_reference,category,limitations
+C01,Delivery,Battery,PDB,DC supply pair,Sketch upper-left; delivery list p.1,HISTORICAL DOCUMENTED,Polarity/connector/gauge unverified
+C02,Delivery,PDB,Four ESCs,Four DC branches,Sketch upper-right,HISTORICAL DOCUMENTED,Branch rating/protection unverified
+C03,Delivery,Four ESCs,Four motors,Three-phase groups,Sketch upper-right,HISTORICAL DOCUMENTED,"No actual motor order, phase sequence or wire colours"
+C04,Delivery,Pixhawk,Four ESCs,Control boundary,Sketch MAIN OUT,SOURCE-DERIVED,No output channel/order or ESC protocol recovered
+C05,Delivery,Power module,Pixhawk POWER,Supply/monitor role,Sketch POWER; delivery list p.1,SOURCE-DERIVED,High-current insertion point and calibration unresolved
+C06,Delivery,GPS/compass,Pixhawk,GPS/compass role,Sketch GPS/I2C; pld10,SOURCE-DERIVED,Compass bus/revision/axes/pins unknown
+C07,Delivery,3DR telemetry,Pixhawk TELEM,Serial role,Sketch TELEM; pld13,SOURCE-DERIVED,UART pins and baud unrecovered
+C08,Delivery,FS-iA6B,Pixhawk RC IN,RC command role,Sketch RC IN; pld2,SOURCE-DERIVED,PPM label is not installed protocol proof
+C09,Delivery,Safety switch,Pixhawk,Safety role,Sketch left,SOURCE-DERIVED,Connector and settings unknown
+C10,Delivery,Buzzer,Pixhawk,Annunciation role,Sketch lower,SOURCE-DERIVED,Type and pinout unknown
+C11,Delivery,UBEC,FPV assembly,Regulated FPV role,Sketch lower-left; delivery list p.1,SOURCE-DERIVED,"5 V / 3 A label; demand, polarity and return unknown"
+C12,Delivery,Controller / supply,Release servo,UNRESOLVED signal/supply/return,Sketch 3 conductors; pld20,UNKNOWN / UNVERIFIED,Proximity to I2C is not I2C servo evidence
+C13,Delivery,Range module,Control/software,UNRESOLVED sensing role,Author report and algorithm prose,UNKNOWN / UNVERIFIED,"Model, pins, voltage and installed coverage unknown"
+C14,Scout,Battery,AIO,Power role,Methodology; sc9,SOURCE-DERIVED,1100 mAh reported; cells/voltage unknown
+C15,Scout,AIO,Four motors,Three-phase role,Scout list p.1; sc9,SOURCE-DERIVED,Physical pads/target/order unknown
+C16,Scout,R81,AIO,RC role,Scout list p.1,SOURCE-DERIVED,PIN_UNVERIFIED; protocol/revision unknown
+C17,Scout,FPV camera/VTX,Operator,Video role,Report manual piloting,SOURCE-DERIVED,Exact module and supply unknown
+C18,Scout,YOLO/ranging development,Decision boundary,Reported development,Algorithm prose; author clarification,UNKNOWN / UNVERIFIED,No executable/weights/deployment or autonomous authority recovered
+R01,Bench only,External 4.8 V source,Servo abstraction,New separate supply/return,TowerPro MG90S; ArduPilot powering guidance,REFERENCE DESIGN (NEW),Not historic UBEC; device identity/current unverified
+R02,Bench only,External PWM source,Servo abstraction,New command/common return,ArduPilot powering/gripper guidance,REFERENCE DESIGN (NEW),"Lead order, logic levels/endpoints/travel unverified"

@@ -1,0 +1,6 @@
+source_id,source_file,source_axes,bounds_min_x_mm,bounds_min_y_mm,bounds_min_z_mm,bounds_max_x_mm,bounds_max_y_mm,bounds_max_z_mm,product_records,assembly_usage_records,rights
+D01,F450 Btm Plate.stp,Export coordinate axes; aircraft forward/up not assigned,-90.25,-0.76,-58.37500000000004,90.2500000000001,0.76,58.375,1,0,WITHHELD FOR RIGHTS
+D02,F450 Frame Assembly.stp,Export coordinate axes; aircraft forward/up not assigned,-219.82082745065068,-8.209173413823796,-121.7014515185187,147.3888530317677,49.550826786176096,252.28879371813468,6,30,WITHHELD FOR RIGHTS
+D03,F450 Top Plate.stp,Export coordinate axes; aircraft forward/up not assigned,-53.0529310347954,-0.76,-53.05293103479534,53.05293103479541,0.76,53.05293103479541,1,0,WITHHELD FOR RIGHTS
+D04,pld_arm.stp,Export coordinate axes; aircraft forward/up not assigned,-20.4000000000007,-52.25,-20.400000100000703,195.6000001,2.0000001019173816,20.400000100000703,1,0,WITHHELD FOR RIGHTS
+D05,servo_based_drop_mechansim.stp,Export coordinate axes; aircraft forward/up not assigned,0.0,0.0,0.0,120.0,70.0,45.0,1,0,WITHHELD FOR RIGHTS
