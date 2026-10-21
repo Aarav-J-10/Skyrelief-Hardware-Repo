@@ -14,5 +14,16 @@ CERN-OHL-W-2.0 for hardware design sources, MIT for software, CC-BY-4.0 for docu
 - The historical aircraft cannot be fully reproduced: frame CAD (D01–D05) is third-party and withheld; the latch and harness were never drawn; flight-controller configurations, mission files, the release command and perception code were not recovered.
 - 19/20 is a retrospective composite count without a trial register. No new physical test of any kind was performed.
 
+## Tagging (maintainer step)
+The release is prepared on `main` but the tag could not be pushed from the preparation session (HTTP 403). From a clone with write access:
+
+```bash
+git fetch origin && git checkout main && git pull --ff-only
+python scripts/release_gate.py && python scripts/check_release_lock.py --self-test
+git tag -a v1.0.0 -m "SkyRelief v1.0.0" origin/main && git push origin v1.0.0
+```
+
+Pushing the tag runs `.github/workflows/release.yml`, which repeats the gates and publishes the GitHub release with the archive and SHA-256 files below.
+
 ## Integrity
 The release workflow attaches `SkyRelief_Mechanical_Source_Release_v1.0.0.zip` (built with `git archive` from the tagged commit) and its `.sha256`. Per-file SHA-256 values are in `verification/file_manifest.csv`.

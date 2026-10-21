@@ -13,10 +13,10 @@
   "source_upstream_note": "Recorded in data/source_freeze.json (accessed 2026-10-20T09:55:28Z, 49 blobs). Not re-fetched in the 2026-10-20 synchronisation session.",
   "mechanical_repo": "Aarav-J-10/Skyrelief-Hardware-Repo",
   "mechanical_base_commit": "7cd888165757441deb394b12f5b5b81d8ebcd54f",
-  "mechanical_tag": "v1.0.0",
+  "mechanical_tag": null,
   "electronics_repo": "Aarav-J-10/SkyRelief-Electronics-Integration-Repository",
   "electronics_base_commit": "29def3e9ea23ed077be269c285336300e7e2a40b",
-  "electronics_tag": "v1.0.0",
+  "electronics_tag": null,
   "release_commits_note": "A file cannot contain the commit that adds it. The frozen release commits are recorded in SkyRelief_Submission_Manifest.json outside the repositories.",
   "supplements": {
     "S1": "SkyRelief_Mechanical_Source_Release.zip",
@@ -102,11 +102,15 @@
   "review_status": "CONDITIONAL_GO",
   "review_status_scope": "Pre-submission eligibility inquiry only. Formal submission is NO-GO until the Editorial Office rules on the missing historical construction and operating sources (gates G02/G03).",
   "last_verification_date": "2026-10-21",
-  "release_tag": "v1.0.0",
-  "release_tag_note": "Annotated tag created on the merge commit of main that contains this file; the commit SHA is recorded in the release notes and submission manifest, not here.",
+  "release_tag_note": "Tags are null because no tag existed when this file was committed: the preparation session could not push tags (HTTP 403 from its git proxy). The maintainer creates annotated tag v1.0.0 on the main commit that contains this file (commands in RELEASE_NOTES.md); the tag-triggered workflow then builds the release archive and SHA-256 records.",
   "release_candidate_commits": {
     "mechanical": "c7d4c675110adedde9ff7b1940a4c04176a3010d",
     "electronics": "1c7f609141693e5a564b0a10f2a95519e76f3a46"
   },
-  "editorial_ruling": null
+  "editorial_ruling": null,
+  "release_tag_planned": "v1.0.0",
+  "merged_commits_1_0_0": {
+    "mechanical": "1e35e1b732264d3fea532f9651cb91c3a85f7922",
+    "electronics": "1bbb2663467b061af54667c0153275b03d5f986f"
+  }
 }
