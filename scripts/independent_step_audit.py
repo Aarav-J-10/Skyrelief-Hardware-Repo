@@ -1,5 +1,6 @@
 """Independent audit of the five released R01 STEP files.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 
 Reads only the exported STEP files (never the generator's in-memory shapes) and
 checks: B-rep validity, solid counts, volumes, bounding boxes, a fine 0.25 mm

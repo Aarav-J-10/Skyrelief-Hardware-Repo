@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+# SPDX-License-Identifier: MIT
 name: verify
 on: [push, pull_request, workflow_dispatch]
 permissions:
@@ -12,8 +14,10 @@ jobs:
         with: {python-version: '3.12'}
       - name: File, link, hash and BOM checks
         run: python scripts/validate_repository.py
-      - name: Rights gate (tree and Git history)
+      - name: Rights gate (tree and Git history, approved licence matrix)
         run: python scripts/release_gate.py
+      - name: REUSE licence compliance
+        run: pip install reuse==6.2.0 && reuse lint
       - name: Release lock and negative tests
         run: python scripts/check_release_lock.py --self-test
   r01-geometry:

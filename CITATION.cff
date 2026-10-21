@@ -1,9 +1,14 @@
 cff-version: 1.2.0
-message: "Untagged release candidate 0.2.0-rc1. Cite the repository URL and commit. No DOI has been assigned."
+message: "Cite release v1.0.0 of this repository. No DOI has been assigned."
 type: software
+license:
+  - CERN-OHL-W-2.0
+  - MIT
+  - CC-BY-4.0
+date-released: "2026-10-21"
 repository-code: "https://github.com/Aarav-J-10/Skyrelief-Hardware-Repo"
 title: "SkyRelief-Mechanical-Hardware: historical dossier and independent engineering reference"
-version: "0.2.0-rc1"
+version: "1.0.0"
 authors:
   - family-names: Jalan
     given-names: Aarav

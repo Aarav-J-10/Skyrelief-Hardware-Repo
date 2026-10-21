@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checks_run": 365,
+  "checks_run": 378,
   "failures": [],
   "python": "3.13.16",
   "scope": "File/native report validation only; no physical testing",
@@ -171,12 +171,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: LICENSES.md -> Known_Limitations.md",
+      "check": "Exact-case Markdown link: LICENSES.md -> AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
@@ -186,7 +181,32 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "check": "Exact-case Markdown link: LICENSES.md -> REUSE.toml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> PUBLICATION_GATE.md",
       "pass": true,
       "detail": ""
     },
@@ -196,22 +216,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> CHANGELOG.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: RELEASE_NOTES.md -> PUBLICATION_GATE.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
       "check": "No local path/secret text: PUBLICATION_RELEASE_LOCK.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
       "pass": true,
       "detail": ""
     },
@@ -341,7 +346,7 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
       "pass": true,
       "detail": ""
     },
@@ -351,7 +356,22 @@
       "detail": ""
     },
     {
+      "check": "Exact-case Markdown link: README.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "Exact-case Markdown link: README.md -> CITATION.cff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
@@ -686,6 +706,21 @@
       "detail": ""
     },
     {
+      "check": "No local path/secret text: LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: bom/reference_R01_bom.csv",
       "pass": true,
       "detail": ""
@@ -967,6 +1002,11 @@
     },
     {
       "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../LICENSES.md",
       "pass": true,
       "detail": ""
     },
@@ -1316,6 +1356,11 @@
       "detail": ""
     },
     {
+      "check": "SHA-256 .github/workflows/release.yml",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "SHA-256 .github/workflows/verify.yml",
       "pass": true,
       "detail": ""
@@ -1326,7 +1371,7 @@
       "detail": ""
     },
     {
-      "check": "SHA-256 AUTHORS_LICENSING_APPROVAL_REQUIRED.md",
+      "check": "SHA-256 AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
@@ -1356,6 +1401,21 @@
       "detail": ""
     },
     {
+      "check": "SHA-256 LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "SHA-256 LICENSE_MATRIX.csv",
       "pass": true,
       "detail": ""
@@ -1377,6 +1437,11 @@
     },
     {
       "check": "SHA-256 RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 REUSE.toml",
       "pass": true,
       "detail": ""
     },

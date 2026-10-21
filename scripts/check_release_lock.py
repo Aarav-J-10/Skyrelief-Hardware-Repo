@@ -1,5 +1,6 @@
 """Cross-repository release-lock check, identical in both SkyRelief repositories.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 
 1. Validates PUBLICATION_RELEASE_LOCK.json against the facts in this repository
    (counts, ERC results, cost baskets, supplement names, licence state).
@@ -13,7 +14,8 @@ from decimal import Decimal
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SHARED = ['PUBLICATION_RELEASE_LOCK.json', 'PUBLICATION_GATE.md', 'AUTHORS_LICENSING_APPROVAL_REQUIRED.md',
+SHARED = ['PUBLICATION_RELEASE_LOCK.json', 'PUBLICATION_GATE.md', 'AUTHOR_LICENSING_DECISIONS.md',
+          'LICENSES/CERN-OHL-W-2.0.txt', 'LICENSES/MIT.txt', 'LICENSES/CC-BY-4.0.txt',
           'scripts/check_release_lock.py', 'scripts/release_gate.py',
           'bom/complete_platform_parts_crosswalk.csv', 'bom/supplier_cost_provenance.csv',
           'data/evidence_ledger.csv', 'data/documented_connections.csv', 'data/source_manifest.csv',
@@ -69,6 +71,14 @@ def validate(lock, fx):
     pending = lock['rights_status'].get('overall') != 'APPROVED'
     if pending and lock['review_status'] == 'GO':
         errs.append('GO is impossible while licensing is pending')
+    hist_ok = all(lock.get(k) for k in ('historical_wiring_complete', 'historical_controller_exports_recovered'))
+    if lock['review_status'] == 'GO' and not (hist_ok or lock.get('editorial_ruling')):
+        errs.append('GO requires recovered historical sources or a recorded editorial ruling; licensing alone is not enough')
+    if not pending and lock['rights_status'].get('licences') != {'hardware_design_sources': 'CERN-OHL-W-2.0', 'software': 'MIT',
+                                                                 'documentation_data_photographs': 'CC-BY-4.0'}:
+        errs.append('licence scheme differs from the authors\' recorded decision')
+    if not pending and 'WITHHELD' not in lock['rights_status'].get('historical_step_D01_D05', ''):
+        errs.append('D01-D05 must remain withheld and unlicensed')
     if pending and (lock.get('mechanical_tag') or lock.get('electronics_tag')):
         if any(str(t).startswith('v1') for t in (lock.get('mechanical_tag'), lock.get('electronics_tag')) if t):
             errs.append('v1.x tag while licensing is pending')
@@ -102,7 +112,10 @@ def self_test(lock, fx):
     cases = {
         'S2 pointing at computation': lambda L: L['supplements'].__setitem__('S2', 'SkyRelief_Reproducible_Computations.zip'),
         'scout ERC silenced': lambda L: L['erc']['scout_reference'].__setitem__('violations', 0),
-        'GO with pending licences': lambda L: L.__setitem__('review_status', 'GO'),
+        'GO on licensing alone': lambda L: L.__setitem__('review_status', 'GO'),
+        'v1 tag while licensing pending': lambda L: L['rights_status'].__setitem__('overall', 'PUBLIC_LICENSE_APPROVAL_PENDING'),
+        'silent licence substitution': lambda L: L['rights_status']['licences'].__setitem__('software', 'GPL-3.0-only'),
+        'D01-D05 licensed': lambda L: L['rights_status'].__setitem__('historical_step_D01_D05', 'CERN-OHL-W-2.0'),
         'invented complete total': lambda L: L['cost_baskets'].__setitem__('complete_total', 30000),
         'unsupported 97% release figure': lambda L: L['historical_outcomes'].__setitem__('separate_release_reliability', 0.97),
         'claimed new physical tests': lambda L: L.__setitem__('physical_new_tests', True),

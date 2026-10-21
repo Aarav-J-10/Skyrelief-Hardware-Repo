@@ -1,5 +1,6 @@
 """Independent R01 keyhole gate bench reference. No historical CAD is read.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 Requires cadquery-ocp==8.0.1.1.0; geometry in millimetres.
 """
 import json, math, sys

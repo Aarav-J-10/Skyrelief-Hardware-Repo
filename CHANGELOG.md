@@ -1,4 +1,11 @@
 # Change log
+## 1.0.0 / 2026-10-21
+- Applied the licensing scheme approved by both authors: CERN-OHL-W-2.0 (hardware design sources), MIT (software), CC-BY-4.0 (documentation, photographs, data). Canonical texts in `LICENSES/`; per-file assignment in `LICENSE_MATRIX.csv` and `REUSE.toml`; SPDX headers on all new code. Decision recorded in `AUTHOR_LICENSING_DECISIONS.md` (replaces `AUTHORS_LICENSING_APPROVAL_REQUIRED.md`).
+- `release_gate.py` now verifies licence texts against canonical hashes, SPDX headers against the matrix, and REUSE metadata; D01–D05 and vendor artwork remain excluded and unlicensed.
+- `check_release_lock.py`: GO now requires recovered historical sources or a recorded editorial ruling; new negative tests for licence substitution, licensing D01–D05 and a v1 tag without approval.
+- Added a tag-triggered release workflow that builds the source archive and SHA-256 records.
+- R01 geometry unchanged; regenerated and re-audited.
+
 ## 0.2.0-rc1 / 2026-10-20 (untagged release candidate)
 - Restored `.gitignore` (listed in the 0.1.0 manifest but dropped by the GitHub web upload, which made the validator fail on the public tree) and added `.gitattributes` so released bytes are not rewritten.
 - Added the shared `PUBLICATION_RELEASE_LOCK.json`, `PUBLICATION_GATE.md` and `AUTHORS_LICENSING_APPROVAL_REQUIRED.md`, identical in both repositories, plus `scripts/check_release_lock.py` (cross-repository comparison with seven negative tests).

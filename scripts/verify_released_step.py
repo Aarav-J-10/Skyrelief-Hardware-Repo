@@ -1,5 +1,6 @@
 """Read-only reimport of every delivered new STEP.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 """
 from pathlib import Path
 import json

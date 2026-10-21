@@ -1,4 +1,4 @@
 # Contribution review
 Preserve source IDs and exact hashes. Historical claims need a specific source/page/photo and revision limit. New design changes need assumptions, units, editable source and executed verification. Never convert guessed pins, dimensions or controller settings into historical facts.
 
-Run the repository validator and regenerate exports after source changes. Do not introduce third-party CAD, meshes, vendor artwork or upstream software without checking the actual grant. Public release requires author licence selection. Digital checks never establish physical electrical or flight qualification.
+Run the repository validator and regenerate exports after source changes. Do not introduce third-party CAD, meshes, vendor artwork or upstream software without checking the actual grant. Contributions are accepted under the licence that already covers the file you change (see LICENSE_MATRIX.csv): CERN-OHL-W-2.0 for hardware design sources, MIT for code, CC-BY-4.0 for documentation and data. Add an SPDX header to new code and run `python scripts/release_gate.py --write-matrix`. Digital checks never establish physical electrical or flight qualification.

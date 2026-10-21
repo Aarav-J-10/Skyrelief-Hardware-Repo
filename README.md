@@ -34,10 +34,10 @@ On Windows use `.venv\Scripts\activate`. Every command is also run by [CI](.gith
 | Aircraft records | [System architecture](docs/Mechanical_System_Architecture.md) · [Photo map](docs/Photo_Map.md) · [Historical data](docs/Historical_Data_Interpretation.md) · [`evidence/original/`](evidence/original/) |
 | Verification | [Mechanical verification report](docs/Mechanical_Verification_Report.md) · [`verification/`](verification/) |
 | Provenance and rights | [Rights disposition](docs/Source_Rights_Disposition.md) · [`LICENSE_MATRIX.csv`](LICENSE_MATRIX.csv) · [Excluded CAD](docs/EXCLUDED_THIRD_PARTY_CAD.md) · [Source register](docs/Source_Document_Register.md) |
-| Release status | [Publication gate](PUBLICATION_GATE.md) · [Release lock](PUBLICATION_RELEASE_LOCK.json) · [Release notes](RELEASE_NOTES.md) |
+| Release status | [Publication gate](PUBLICATION_GATE.md) · [Release lock](PUBLICATION_RELEASE_LOCK.json) · [Release notes](RELEASE_NOTES.md) · [Licences](LICENSES.md) |
 
 ## Status and licence
 
-Release candidate **0.2.0-rc1**, untagged. **No reuse licence has been granted yet**: both authors must choose one ([decision sheet](AUTHORS_LICENSING_APPROVAL_REQUIRED.md)). Until then the files are published with the authors' consent but are not open-licensed; see [LICENSES.md](LICENSES.md). Five historical STEP files (D01–D05) are withheld. No new physical tests were performed; R01 is **bench-only and not validated for flight**.
+Release **1.0.0** (tag `v1.0.0`). Licensed by both authors: hardware design sources under **CERN-OHL-W-2.0**, software under **MIT**, documentation, photographs and data under **CC-BY-4.0** ([details](LICENSES.md), [per-file matrix](LICENSE_MATRIX.csv)). Five historical STEP files (D01–D05) remain withheld and unlicensed. R01 is a new, unbuilt reference: **bench-only, not validated for flight**; it needs an end stop at the 18 mm release position (the coupon falls clear only at 16–20 mm of gate travel). The historical aircraft cannot be fully reproduced from these files (see [publication gate](PUBLICATION_GATE.md)).
 
 Cite with [CITATION.cff](CITATION.cff). Historical source archive: [Shadowfax0707/project-ap-DDPDS_2024_1729-0707](https://github.com/Shadowfax0707/project-ap-DDPDS_2024_1729-0707) at `42f9a44600351ec6d0a57fb20756c547acf38cad`.

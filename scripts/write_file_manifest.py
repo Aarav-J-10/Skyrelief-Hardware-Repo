@@ -1,5 +1,6 @@
 """Write verification/file_manifest.csv (path, bytes, sha256) for every file except itself and .git.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 Run last, after all generated outputs and verification/repository_checks.json are final."""
 import csv, hashlib
 from pathlib import Path

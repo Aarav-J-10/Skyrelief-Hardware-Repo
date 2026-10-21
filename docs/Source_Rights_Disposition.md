@@ -1,14 +1,14 @@
 # Source rights disposition
 
-Every file in the release is classified in [`LICENSE_MATRIX.csv`](../LICENSE_MATRIX.csv). This page summarises the classes. **No reuse licence has been granted yet**: the authors have consented to publish their own material, which is a different thing from licensing others to copy and modify it.
+Every file in the release is classified in [`LICENSE_MATRIX.csv`](../LICENSE_MATRIX.csv). This page summarises the classes. Both authors licensed their own material on 21 October 2026. Third-party material is excluded and unlicensed.
 
 | Class | Files | Publication | Reuse licence | Who decides |
 |---|---|---|---|---|
-| Author-owned historical originals | `evidence/original/*`, `images/payload/*`, `images/scout/*` | Consented by authors | **Pending** (CC BY 4.0 proposed for photos/documents) | Both authors |
-| Author-owned historical script and data | `evidence/original/*.py`, `*.ods` | Consented | **Pending** (MIT for script, CC BY 4.0 or CC0 for data proposed) | Both authors; script credited to A. Patro |
-| New R01 design source and exports | `cad/independently_authored/*`, `drawings/R01_*` | Proposed | **Pending** (CERN-OHL-W-2.0 or -S-2.0 proposed) | Both authors, after reviewing the AI-assisted contribution |
-| New scripts | `scripts/*.py` | Proposed | **Pending** (MIT proposed) | Both authors |
-| New documentation and data tables | `docs/*`, `bom/*`, `data/*`, `verification/*` | Proposed | **Pending** (CC BY 4.0 proposed) | Both authors |
+| Author-owned historical originals | `evidence/original/*`, `images/payload/*`, `images/scout/*` | Published | **CC-BY-4.0** | Approved by both authors |
+| Author-owned historical script and data | `evidence/original/*.py`, `*.ods` | Published | **MIT** (script), **CC-BY-4.0** (data) | Approved by both authors |
+| New R01 design source and exports | `cad/independently_authored/*`, `drawings/R01_*` | Published | **CERN-OHL-W-2.0** (generator code MIT) | Approved by both authors |
+| New scripts | `scripts/*.py` | Published | **MIT** | Approved by both authors |
+| New documentation and data tables | `docs/*`, `bom/*`, `data/*`, `verification/*` | Published | **CC-BY-4.0** | Approved by both authors |
 | Historical STEP D01–D05 | not in repository | **Withheld** | Not ours to grant | Original creator(s); D01–D04 metadata names "Brayo" |
 | Vendor/tutorial artwork | not in repository | **Excluded** | Not ours to grant | Respective owners |
 | ArduPilot, Betaflight, KiCad, Open CASCADE | not redistributed | n/a | Upstream licences apply | Upstream projects |

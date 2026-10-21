@@ -1,5 +1,6 @@
 """Vector two-state drawing of the R01 bench reference (plan view and section A-A).
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 
 Drawn from cad/independently_authored/parameters.json with the same placement
 rules as build_reference.py; envelopes are cross-checked against
@@ -11,6 +12,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+plt.rcParams['svg.hashsalt'] = 'SkyRelief-R01'  # deterministic SVG element ids
 from matplotlib.patches import Rectangle, Circle, Polygon
 
 ROOT = Path(__file__).resolve().parents[1]

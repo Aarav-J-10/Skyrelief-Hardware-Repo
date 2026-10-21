@@ -1,5 +1,6 @@
 """Portable file-level verification. No hardware access.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 """
 from pathlib import Path
 import argparse,csv,hashlib,json,re,sys,xml.etree.ElementTree as ET,urllib.parse
@@ -74,7 +75,7 @@ def main():
  check('Ledger uses exact evidence classes',all(x['category'] in cats for x in csvrows(ROOT/'data/evidence_ledger.csv')))
  check('18 historical + 2 new functional interfaces',len(csvrows(ROOT/'data/documented_connections.csv'))==20)
  freeze=json.loads((ROOT/'data/source_freeze.json').read_text());check('49 Git blobs verified',freeze['all_git_blobs_verified'] and freeze['blobs']==49)
- severity={'BLOCKING FOR PUBLIC RELEASE','BLOCKING FOR REPRODUCIBLE HARDWARE','MAJOR','MINOR'}
+ severity={'BLOCKING FOR PUBLIC RELEASE','BLOCKING FOR REPRODUCIBLE HARDWARE','MAJOR','MINOR','RESOLVED'}
  check('Completed issue severity vocabulary',all(x['severity'] in severity for x in csvrows(ROOT/'data/issue_matrix.csv')))
  if (ROOT/'kicad').is_dir():
   report=json.loads((ROOT/'verification/native_kicad_checks.json').read_text())

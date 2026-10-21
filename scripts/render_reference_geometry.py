@@ -1,5 +1,6 @@
 """Render only the independent R01 STEP exports; no historical source geometry.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 Requires cadquery-ocp==8.0.1.1.0 and matplotlib.
 """
 from pathlib import Path

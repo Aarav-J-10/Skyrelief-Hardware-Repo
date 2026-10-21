@@ -12,3 +12,5 @@ Own-material publication permission is recorded for author-attributed originals.
 
 ## Release decision
 The two ZIPs are completed engineering review repositories. Public open-hardware release remains blocked by licence election; historical hardware reproducibility remains blocked by CAD/harness/configuration gaps. Remedies are source-specific permission, documented independent replacement design and qualification, or a narrower editorially approved scope. No editor waiver or journal compliance determination is claimed.
+
+**Update 2026-10-21 (release 1.0.0):** L01 is resolved. Both authors approved CERN-OHL-W-2.0, MIT and CC-BY-4.0 for their own material; see `LICENSES.md`. L02–L10 are unchanged.
