@@ -1,8 +1,8 @@
 {
   "status": "PASS",
-  "checks_run": 220,
+  "checks_run": 378,
   "failures": [],
-  "python": "3.12.14",
+  "python": "3.13.16",
   "scope": "File/native report validation only; no physical testing",
   "checks": [
     {
@@ -156,7 +156,7 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: CHANGELOG.md",
+      "check": "No local path/secret text: requirements-cad.txt",
       "pass": true,
       "detail": ""
     },
@@ -166,27 +166,57 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: CONTRIBUTING.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: Known_Limitations.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
       "check": "No local path/secret text: LICENSES.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> data/source_manifest.csv",
+      "check": "Exact-case Markdown link: LICENSES.md -> AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: LICENSES.md -> Known_Limitations.md",
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> REUSE.toml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: LICENSES.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: PUBLICATION_RELEASE_LOCK.json",
       "pass": true,
       "detail": ""
     },
@@ -196,87 +226,37 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> data/source_manifest.csv",
+      "check": "Exact-case Markdown link: README.md -> .github/workflows/verify.yml",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
+      "check": "Exact-case Markdown link: README.md -> docs/R01_Design_Definition.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> Known_Limitations.md",
+      "check": "Exact-case Markdown link: README.md -> docs/R01_Generator_and_Parameters.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Design_Analysis.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> data/issue_matrix.csv",
+      "check": "Exact-case Markdown link: README.md -> cad/independently_authored/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/01_System_Overview.md",
+      "check": "Exact-case Markdown link: README.md -> drawings/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/Source_Document_Register.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/Photo_Map.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> bom/README.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/04_Assembly_Guide.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> cad/README.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> verification/repository_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/08_Verification_Results.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/01_System_Overview.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/02_Mechanical_Architecture.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/03_Payload_Retention_and_Release.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: README.md -> docs/04_Assembly_Guide.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Assembly_Instructions.md",
       "pass": true,
       "detail": ""
     },
@@ -286,22 +266,102 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/06_Design_Assumptions_and_Unknowns.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Build_Costs.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/07_Source_Provenance_and_Rights.md",
+      "check": "Exact-case Markdown link: README.md -> bom/",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/08_Verification_Results.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Manufacturer_or_Third_Party_Integration.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> docs/09_Manuscript_Figure_and_Table_Map.md",
+      "check": "Exact-case Markdown link: README.md -> docs/Mechanical_System_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/Photo_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/Historical_Data_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> evidence/original/",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/Mechanical_Verification_Report.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> verification/",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/Source_Rights_Disposition.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> docs/Source_Document_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_RELEASE_LOCK.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: README.md -> PUBLICATION_GATE.md",
       "pass": true,
       "detail": ""
     },
@@ -311,12 +371,17 @@
       "detail": ""
     },
     {
-      "check": "Exact-case Markdown link: README.md -> CONTRIBUTING.md",
+      "check": "No local path/secret text: AUTHOR_LICENSING_DECISIONS.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: requirements-cad.txt",
+      "check": "No local path/secret text: LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: LICENSE_MATRIX.csv",
       "pass": true,
       "detail": ""
     },
@@ -326,47 +391,297 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/complete_platform_parts_crosswalk.csv",
+      "check": "No local path/secret text: CHANGELOG.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/complete_platform_parts_crosswalk.csv",
+      "check": "No local path/secret text: Known_Limitations.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/mechanical_bom.csv",
+      "check": "No local path/secret text: CONTRIBUTING.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/mechanical_bom.csv",
+      "check": "No local path/secret text: PUBLICATION_GATE.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/README.md",
+      "check": "No local path/secret text: verification/repository_checks.json",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/reference_R01_bom.csv",
+      "check": "No local path/secret text: verification/Visual_Review.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/reference_R01_bom.csv",
+      "check": "No local path/secret text: verification/extracted_archive_engineering_checks.json",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: bom/supplier_cost_provenance.csv",
+      "check": "No local path/secret text: verification/pdf_metadata_audit.json",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: bom/supplier_cost_provenance.csv",
+      "check": "No local path/secret text: verification/cross_repository_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/Technical_and_Licensing_Audit.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/tool_versions.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/file_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: verification/file_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: verification/independent_step_audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/release_gate.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/write_file_manifest.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/render_two_state_figure.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/check_release_lock.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/validate_repository.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/independent_step_audit.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/render_reference_geometry.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/compare_repositories.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: scripts/verify_released_step.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/evidence_categories.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/reference_design_assumptions.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/reference_design_assumptions.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_freeze.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "UTF-8 rectangular CSV: data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: drawings/release_functional_diagram.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: drawings/release_functional_diagram.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: drawings/R01_two_state.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: drawings/R01_two_state.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: drawings/geometry_scope.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: drawings/geometry_scope.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: drawings/R01_dimensioned_reference.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: drawings/R01_dimensioned_reference.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: drawings/system_layout.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "XML parse: drawings/system_layout.svg",
       "pass": true,
       "detail": ""
     },
@@ -391,157 +706,62 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/archived_thrust_sheet_transcription.csv",
+      "check": "No local path/secret text: LICENSES/CC-BY-4.0.txt",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: data/archived_thrust_sheet_transcription.csv",
+      "check": "No local path/secret text: LICENSES/CERN-OHL-W-2.0.txt",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/documented_connections.csv",
+      "check": "No local path/secret text: LICENSES/MIT.txt",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: data/documented_connections.csv",
+      "check": "No local path/secret text: bom/reference_R01_bom.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/evidence_categories.json",
+      "check": "UTF-8 rectangular CSV: bom/reference_R01_bom.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/evidence_ledger.csv",
+      "check": "No local path/secret text: bom/README.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: data/evidence_ledger.csv",
+      "check": "No local path/secret text: bom/mechanical_bom.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/included_original_assets.csv",
+      "check": "UTF-8 rectangular CSV: bom/mechanical_bom.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: data/included_original_assets.csv",
+      "check": "No local path/secret text: bom/complete_platform_parts_crosswalk.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/issue_matrix.csv",
+      "check": "UTF-8 rectangular CSV: bom/complete_platform_parts_crosswalk.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "UTF-8 rectangular CSV: data/issue_matrix.csv",
+      "check": "No local path/secret text: bom/supplier_cost_provenance.csv",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: data/reference_design_assumptions.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/reference_design_assumptions.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_coordinate_scope.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_coordinate_scope.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_freeze.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_geometry_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_geometry_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_image_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_image_audit.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/unresolved_nets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/unresolved_nets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: data/withheld_asset_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "UTF-8 rectangular CSV: data/withheld_asset_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/01_System_Overview.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../drawings/system_layout.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> Photo_Map.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../bom/mechanical_bom.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../data/evidence_ledger.csv",
+      "check": "UTF-8 rectangular CSV: bom/supplier_cost_provenance.csv",
       "pass": true,
       "detail": ""
     },
@@ -552,6 +772,26 @@
     },
     {
       "check": "Exact-case Markdown link: docs/02_Mechanical_Architecture.md -> ../data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/05_Manufacturing_and_Safety.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Mechanical_System_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Mechanical_System_Architecture.md -> Source_Rights_Disposition.md",
       "pass": true,
       "detail": ""
     },
@@ -586,72 +826,52 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: docs/04_Assembly_Guide.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/05_Manufacturing_and_Safety.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/06_Design_Assumptions_and_Unknowns.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/06_Design_Assumptions_and_Unknowns.md -> ../Known_Limitations.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/07_Source_Provenance_and_Rights.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../data/source_manifest.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../data/included_original_assets.csv",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> EXCLUDED_THIRD_PARTY_CAD.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/08_Verification_Results.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/08_Verification_Results.md -> ../verification/repository_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "Exact-case Markdown link: docs/08_Verification_Results.md -> ../cad/independently_authored/geometry_verification.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/09_Manuscript_Figure_and_Table_Map.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "check": "No local path/secret text: docs/Mechanical_Verification_Report.md",
       "pass": true,
       "detail": ""
     },
     {
       "check": "No local path/secret text: docs/Historical_Data_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Source_Rights_Disposition.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Source_Rights_Disposition.md -> ../LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/R01_Generator_and_Parameters.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Assembly_Instructions.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Assembly_Instructions.md -> Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Assembly_Instructions.md -> Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/04_Assembly_Guide.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/EXCLUDED_THIRD_PARTY_CAD.md",
       "pass": true,
       "detail": ""
     },
@@ -701,107 +921,127 @@
       "detail": ""
     },
     {
+      "check": "No local path/secret text: docs/Build_Costs.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Build_Costs.md -> ../bom/supplier_cost_provenance.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/Build_Costs.md -> ../bom/complete_platform_parts_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/R01_Design_Definition.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/R01_Design_Definition.md -> Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/R01_Design_Definition.md -> Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/Manufacturer_or_Third_Party_Integration.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/09_Manuscript_Figure_and_Table_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/06_Design_Assumptions_and_Unknowns.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/06_Design_Assumptions_and_Unknowns.md -> ../Known_Limitations.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/08_Verification_Results.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/08_Verification_Results.md -> ../verification/repository_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/08_Verification_Results.md -> ../cad/independently_authored/geometry_verification.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/07_Source_Provenance_and_Rights.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/07_Source_Provenance_and_Rights.md -> ../LICENSES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: docs/01_System_Overview.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../drawings/system_layout.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> Photo_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../bom/mechanical_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-case Markdown link: docs/01_System_Overview.md -> ../data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "check": "No local path/secret text: docs/Source_Document_Register.md",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: drawings/geometry_scope.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: drawings/geometry_scope.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: drawings/R01_dimensioned_reference.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: drawings/R01_dimensioned_reference.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: drawings/release_functional_diagram.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: drawings/release_functional_diagram.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: drawings/system_layout.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "XML parse: drawings/system_layout.svg",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: scripts/compare_repositories.py",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: scripts/render_reference_geometry.py",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: scripts/validate_repository.py",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: scripts/verify_released_step.py",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/cross_repository_check.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/extracted_archive_engineering_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/pdf_metadata_audit.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/repository_checks.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/Technical_and_Licensing_Audit.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/tool_versions.json",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: verification/Visual_Review.md",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: cad/independently_authored/build_reference.py",
+      "check": "No local path/secret text: evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
       "pass": true,
       "detail": ""
     },
@@ -816,17 +1056,7 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: cad/independently_authored/exports/R01_chassis.step",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: cad/independently_authored/exports/R01_coupon.step",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "check": "No local path/secret text: cad/independently_authored/exports/R01_gate.step",
+      "check": "No local path/secret text: cad/independently_authored/build_reference.py",
       "pass": true,
       "detail": ""
     },
@@ -836,12 +1066,22 @@
       "detail": ""
     },
     {
-      "check": "No local path/secret text: cad/independently_authored/exports/R01_released_assembly.step",
+      "check": "No local path/secret text: cad/independently_authored/exports/R01_coupon.step",
       "pass": true,
       "detail": ""
     },
     {
-      "check": "No local path/secret text: evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
+      "check": "No local path/secret text: cad/independently_authored/exports/R01_chassis.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: cad/independently_authored/exports/R01_gate.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "No local path/secret text: cad/independently_authored/exports/R01_released_assembly.step",
       "pass": true,
       "detail": ""
     },
@@ -1102,6 +1342,556 @@
     },
     {
       "check": "19 sampled gate positions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "File manifest covers exact repository",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .gitattributes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .github/workflows/release.yml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .github/workflows/verify.yml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 .gitignore",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 AUTHOR_LICENSING_DECISIONS.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CHANGELOG.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CITATION.cff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 CONTRIBUTING.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 Known_Limitations.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/CC-BY-4.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/CERN-OHL-W-2.0.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSES/MIT.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 LICENSE_MATRIX.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 PUBLICATION_GATE.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 PUBLICATION_RELEASE_LOCK.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 RELEASE_NOTES.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 REUSE.toml",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 VERSION.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/complete_platform_parts_crosswalk.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/mechanical_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/reference_R01_bom.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 bom/supplier_cost_provenance.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/build_reference.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/exports/R01_chassis.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/exports/R01_coupon.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/exports/R01_gate.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/exports/R01_locked_assembly.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/exports/R01_released_assembly.step",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/geometry_verification.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 cad/independently_authored/parameters.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/archived_thrust_sheet_transcription.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/documented_connections.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/evidence_categories.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/evidence_ledger.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/included_original_assets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/issue_matrix.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/reference_design_assumptions.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_coordinate_scope.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_freeze.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_geometry_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_image_audit.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/source_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/unresolved_nets.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 data/withheld_asset_manifest.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/01_System_Overview.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/02_Mechanical_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/03_Payload_Retention_and_Release.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/04_Assembly_Guide.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/05_Manufacturing_and_Safety.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/06_Design_Assumptions_and_Unknowns.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/07_Source_Provenance_and_Rights.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/08_Verification_Results.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/09_Manuscript_Figure_and_Table_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Assembly_Instructions.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Build_Costs.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Design_Analysis.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/EXCLUDED_THIRD_PARTY_CAD.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Historical_Data_Interpretation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Manufacturer_or_Third_Party_Integration.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Mechanical_System_Architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Mechanical_Verification_Report.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Photo_Map.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/R01_Design_Definition.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/R01_Generator_and_Parameters.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Source_Document_Register.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 docs/Source_Rights_Disposition.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_dimensioned_reference.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_dimensioned_reference.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_geometry_preview.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_two_state.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_two_state.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/R01_two_state.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/geometry_scope.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/release_functional_diagram.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 drawings/system_layout.svg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Payload_Drone_COMPONENT_LIST.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Payload_and_Flight_Time_Analysis_Estimate(PLD).py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Scout_Drone_Components.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 evidence/original/Thrust_Test_1.ods",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld10.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld13.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld2.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld20.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/payload/pld25.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc7.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc8.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 images/scout/sc9.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 requirements-cad.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/check_release_lock.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/compare_repositories.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/independent_step_audit.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/release_gate.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/render_reference_geometry.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/render_two_state_figure.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/validate_repository.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/verify_released_step.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 scripts/write_file_manifest.py",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Technical_and_Licensing_Audit.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/Visual_Review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/cross_repository_check.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/extracted_archive_engineering_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/independent_step_audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/pdf_metadata_audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/repository_checks.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "SHA-256 verification/tool_versions.json",
       "pass": true,
       "detail": ""
     }

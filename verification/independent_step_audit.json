@@ -1,0 +1,464 @@
+{
+  "scope": "Independent STEP re-import audit; geometry only; not physical validation",
+  "kernel": "cadquery-ocp 8.0.1.1.0 (Open CASCADE)",
+  "files": [
+    {
+      "file": "R01_chassis.step",
+      "sha256_lf_bytes": "c946507c966a3a5a7744a6fbdc0c98f709a1799ce690ea4c99313e9eeafc2536",
+      "solids": 1,
+      "volume_mm3": 39746.07092,
+      "bbox_mm": [
+        -0.0,
+        -0.0,
+        -0.0,
+        110.0,
+        64.0,
+        11.0
+      ]
+    },
+    {
+      "file": "R01_coupon.step",
+      "sha256_lf_bytes": "59a9720481efd3f3fa807c8ad35f2b34eeecd5dfb60d6bd17b87dd8246fec795",
+      "solids": 1,
+      "volume_mm3": 382.881605,
+      "bbox_mm": [
+        50.0,
+        27.0,
+        -3.0,
+        60.0,
+        37.0,
+        10.5
+      ]
+    },
+    {
+      "file": "R01_gate.step",
+      "sha256_lf_bytes": "a719581ae26ba58f3b8284d091c9b820b182fc2d08b173b6e731115fc7d53b06",
+      "solids": 1,
+      "volume_mm3": 4118.08737,
+      "bbox_mm": [
+        10.0,
+        21.5,
+        5.5,
+        88.0,
+        42.5,
+        8.5
+      ]
+    },
+    {
+      "file": "R01_locked_assembly.step",
+      "sha256_lf_bytes": "502ad40eb61d05e15851f22691ca50f01e44fbdc5ed218ee33f9efe6e62d6d75",
+      "solids": 3,
+      "volume_mm3": 44247.039894,
+      "bbox_mm": [
+        -0.0,
+        -0.0,
+        -3.0,
+        110.0,
+        64.0,
+        11.0
+      ]
+    },
+    {
+      "file": "R01_released_assembly.step",
+      "sha256_lf_bytes": "0a678a05fdcb1ea5f9f8ae8a9ca259038473879fbc0a76ebb379b1c3f8704a6e",
+      "solids": 3,
+      "volume_mm3": 44247.039894,
+      "bbox_mm": [
+        -0.0,
+        -0.0,
+        -3.0,
+        110.0,
+        64.0,
+        11.0
+      ]
+    }
+  ],
+  "sweep_step_mm": 0.25,
+  "sweep_positions": 73,
+  "max_chassis_gate_common_mm3": 0.0,
+  "max_coupon_gate_common_mm3": 0.0,
+  "locked_first_contact_dz_mm": -0.5,
+  "released_first_contact_dz_mm": null,
+  "release_window_mm": [
+    16.0,
+    20.0
+  ],
+  "release_window_samples": [
+    {
+      "dx_mm": 0.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 0.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 1.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 1.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 2.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 2.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 3.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 3.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 4.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 4.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 5.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 5.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 6.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 6.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 7.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 7.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 8.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 8.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 9.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 9.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 10.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 10.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 11.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 11.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 12.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 12.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 13.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 13.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 14.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 14.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 15.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 15.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 16.0,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 16.5,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 17.0,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 17.5,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 18.0,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 18.5,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 19.0,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 19.5,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 20.0,
+      "state": "falls_clear"
+    },
+    {
+      "dx_mm": 20.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 21.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 21.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 22.0,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 22.5,
+      "state": "retained"
+    },
+    {
+      "dx_mm": 23.0,
+      "state": "stem_interference"
+    }
+  ],
+  "checks_run": 26,
+  "failures": [],
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "B-rep valid: R01_chassis.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Solid count: R01_chassis.step",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "Volume matches reported: R01_chassis.step",
+      "pass": true,
+      "detail": [
+        39746.07091991859,
+        39746.07091991859
+      ]
+    },
+    {
+      "check": "B-rep valid: R01_coupon.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Solid count: R01_coupon.step",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "Volume matches reported: R01_coupon.step",
+      "pass": true,
+      "detail": [
+        382.88160465625276,
+        382.88160465625276
+      ]
+    },
+    {
+      "check": "B-rep valid: R01_gate.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Solid count: R01_gate.step",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "Volume matches reported: R01_gate.step",
+      "pass": true,
+      "detail": [
+        4118.0873697045945,
+        4118.0873697045945
+      ]
+    },
+    {
+      "check": "B-rep valid: R01_locked_assembly.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Solid count: R01_locked_assembly.step",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "Volume matches reported: R01_locked_assembly.step",
+      "pass": true,
+      "detail": [
+        44247.03989427943,
+        44247.03989427943
+      ]
+    },
+    {
+      "check": "B-rep valid: R01_released_assembly.step",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Solid count: R01_released_assembly.step",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "Volume matches reported: R01_released_assembly.step",
+      "pass": true,
+      "detail": [
+        44247.03989427947,
+        44247.03989427947
+      ]
+    },
+    {
+      "check": "Five STEP files present",
+      "pass": true,
+      "detail": [
+        "R01_chassis.step",
+        "R01_coupon.step",
+        "R01_gate.step",
+        "R01_locked_assembly.step",
+        "R01_released_assembly.step"
+      ]
+    },
+    {
+      "check": "Chassis envelope equals parameters (L x W)",
+      "pass": true,
+      "detail": [
+        -0.0,
+        -0.0,
+        -0.0,
+        110.0,
+        64.0,
+        11.0
+      ]
+    },
+    {
+      "check": "Gate envelope equals parameters",
+      "pass": true,
+      "detail": [
+        10.0,
+        21.5,
+        5.5,
+        88.0,
+        42.5,
+        8.5
+      ]
+    },
+    {
+      "check": "Assemblies sum part volumes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Released assembly volume equals locked",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Chassis/gate zero interference over 0.25 mm sweep",
+      "pass": true,
+      "detail": 73
+    },
+    {
+      "check": "Coupon/gate zero interference over 0.25 mm sweep",
+      "pass": true,
+      "detail": 73
+    },
+    {
+      "check": "Locked state: flange blocked by gate within first 1 mm of descent",
+      "pass": true,
+      "detail": -0.5
+    },
+    {
+      "check": "Released state: coupon descends 25 mm with no gate/chassis contact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Release window is 16-20 mm of gate travel (0.5 mm sampling)",
+      "pass": true,
+      "detail": [
+        16.0,
+        16.5,
+        17.0,
+        17.5,
+        18.0,
+        18.5,
+        19.0,
+        19.5,
+        20.0
+      ]
+    },
+    {
+      "check": "Retained for every sampled offset below 16 mm",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "not_demonstrated": [
+    "continuous (between-sample) clearance",
+    "friction, wear, deflection",
+    "load capacity",
+    "servo torque or linkage",
+    "unpowered retention under vibration",
+    "flight use"
+  ]
+}

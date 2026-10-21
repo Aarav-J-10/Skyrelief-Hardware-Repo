@@ -1,5 +1,6 @@
 """Cross-repository consistency check; standard library only.
-SPDX-License-Identifier: LicenseRef-Pending-Approval
+SPDX-FileCopyrightText: 2026 Aarav Jalan and Abhinav Patro
+SPDX-License-Identifier: MIT
 """
 import argparse,hashlib,json
 from pathlib import Path

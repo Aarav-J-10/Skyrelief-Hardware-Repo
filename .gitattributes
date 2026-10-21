@@ -1,0 +1,2 @@
+# Keep released bytes stable: hashes in verification/file_manifest.csv are computed on exact bytes.
+* -text

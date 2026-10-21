@@ -4,7 +4,7 @@ No new physical experiments were performed. Digital checks do not close the hist
 
 | ID | Severity | Finding | Remedy |
 |---|---|---|---|
-| L01 | BLOCKING FOR PUBLIC RELEASE | Reusable licences not approved | Both authors elect appropriate licences for owned material and review new contributions; preserve external exclusions |
+| L01 | RESOLVED (1.0.0) | Reusable licences approved 2026-10-21 (CERN-OHL-W-2.0 / MIT / CC-BY-4.0) | Both authors elect appropriate licences for owned material and review new contributions; preserve external exclusions |
 | L02 | BLOCKING FOR REPRODUCIBLE HARDWARE | Five historical CAD redistribution grants unresolved | Written source-specific permission or documented independent complete redesign |
 | L03 | BLOCKING FOR REPRODUCIBLE HARDWARE | Historical servo signal/supply/return unrecovered | Exact harness/board evidence or independently specified and verified replacement |
 | L04 | BLOCKING FOR REPRODUCIBLE HARDWARE | Installed firmware/parameters/motor order/failsafes missing | Recover originals or qualify a new installation without historical equivalence claim |
